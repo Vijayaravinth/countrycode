@@ -1,10 +1,7 @@
 To get the country code , name, short form in android 
 
-  GetCountryDetails details;
-    TextView txtCountryCode, txtCountryShortForm, txtCountryFullName;
-
-//Initialise the class
-        details = new GetCountryDetails(MainActivity.this);
+       TextView txtCountryCode, txtCountryShortForm, txtCountryFullName;
+        GetCountryDetails   details = new GetCountryDetails(MainActivity.this);
         
         txtCountryCode = (TextView) findViewById(R.id.countrycode);
         txtCountryShortForm = (TextView) findViewById(R.id.countryshort);
